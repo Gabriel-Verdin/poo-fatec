@@ -1,0 +1,39 @@
+# Compilação e artefatos Java
+*.class
+*.log
+
+# Build tools (Maven, Gradle)
+target/
+build/
+out/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Arquivos gerados por IDEs
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*~
+
+# Configuração local / caches
+.settings/
+.classpath
+.project
+bin/
+
+# Dependências locais
+lib/*.jar
+
+# Se este projeto for compilado com javac diretamente
+*.jar
