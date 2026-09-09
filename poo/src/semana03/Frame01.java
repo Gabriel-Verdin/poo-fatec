@@ -12,7 +12,7 @@ public class Frame01 extends JFrame {
 
     JLabel lbNum1, lbNum2,lbTotal;
     JTextField tfNum1, tfNum2, tfTotal;
-    JButton btSomar, btSubtrair, btMultiplicar, btDividir;
+    JButton btSomar, btSubtrair, btMultiplicar, btDividir, btSair;
 
     public Frame01() { // Definir as caracteristicas da tela
 
@@ -50,16 +50,19 @@ public class Frame01 extends JFrame {
         btSubtrair = new JButton("Subtrair");
         btMultiplicar = new JButton("Multiplicar");
         btDividir = new JButton("Dividir");
+        btSair = new JButton("Sair");
 
         btSomar.setBounds(10, 140, 100, 25);
         btSubtrair.setBounds(140, 140, 100, 25);
         btMultiplicar.setBounds(10, 180, 100, 25);
         btDividir.setBounds(140, 180, 100, 25);
+        btSair.setBounds(10, 220, 230, 25);
 
         add(btSomar);
         add(btSubtrair);
         add(btMultiplicar);
         add(btDividir);
+        add(btSair);
 
         btSomar.addActionListener(new ActionListener() {
 
@@ -134,6 +137,14 @@ public class Frame01 extends JFrame {
                     JOptionPane.showMessageDialog(null, "Forneça dois valores interios");
                     tfNum1.requestFocus();
                 }
+            }
+        });
+
+        btSair.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
             }
         });
     }
