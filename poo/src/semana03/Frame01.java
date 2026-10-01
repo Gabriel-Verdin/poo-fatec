@@ -21,6 +21,7 @@ public class Frame01 extends JFrame {
         setResizable(false);
         setLayout(null); // Layout livre
 
+        // Label
         lbNum1 = new JLabel("Número 01: ");
         lbNum2 = new JLabel("Número 02: ");
         lbTotal = new JLabel("Total: ");    
@@ -33,6 +34,7 @@ public class Frame01 extends JFrame {
         add(lbNum2);
         add(lbTotal);
 
+        // Text Field
         tfNum1 = new JTextField();
         tfNum2 = new JTextField();
         tfTotal = new JTextField();
@@ -46,6 +48,7 @@ public class Frame01 extends JFrame {
         add(tfNum2);
         add(tfTotal);
 
+        // Button
         btSomar = new JButton("Somar");
         btSubtrair = new JButton("Subtrair");
         btMultiplicar = new JButton("Multiplicar");
@@ -64,6 +67,7 @@ public class Frame01 extends JFrame {
         add(btDividir);
         add(btSair);
 
+        // Listener
         btSomar.addActionListener(new ActionListener() {
 
             @Override
@@ -149,6 +153,7 @@ public class Frame01 extends JFrame {
         });
     }
 
+    // Aplicação
     public static void main(String[] args) {
         
         Frame01 f = new Frame01();

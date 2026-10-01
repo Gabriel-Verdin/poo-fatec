@@ -2,16 +2,16 @@ package atividadeExercicios;
 
 import javax.swing.JOptionPane;
 
-public class Exerc01 {
+public class Exerc01Lista01 {
 
     public static void main(String[] args) {
         
-        String numero1_st = JOptionPane.showInputDialog(null, "Digite o primeiro número");
-        String numero2_st = JOptionPane.showInputDialog(null, "Digite o segundo número");
+        String numero1Str = JOptionPane.showInputDialog(null, "Digite o primeiro número");
+        String numero2Str = JOptionPane.showInputDialog(null, "Digite o segundo número");
 
         try {
-            double numero1 = Double.parseDouble(numero1_st);
-            double numero2 = Double.parseDouble(numero2_st);
+            double numero1 = Double.parseDouble(numero1Str);
+            double numero2 = Double.parseDouble(numero2Str);
 
             JOptionPane.showMessageDialog(
                 null,
