@@ -5,15 +5,15 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
-public class GerenciarLampadaEncaps extends JFrame {
+public class EncapGerenciarLampada extends JFrame {
 
-    private LampadaEncaps lampada01 = new LampadaEncaps();
-    private LampadaEncaps lampada02 = new LampadaEncaps();
-    private LampadaEncaps lampada03 = new LampadaEncaps();
+    private EncapLampada lampada01 = new EncapLampada();
+    private EncapLampada lampada02 = new EncapLampada();
+    private EncapLampada lampada03 = new EncapLampada();
 
     private JLabel labelStatus01, labelStatus02, labelStatus03;
 
-    public GerenciarLampadaEncaps() {
+    public EncapGerenciarLampada() {
         setTitle("Gerenciador de Lâmpadas");
         setSize(480, 320);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -148,7 +148,7 @@ public class GerenciarLampadaEncaps extends JFrame {
     }
 
     public static void main(String[] args) {
-        GerenciarLampadaEncaps lampada = new GerenciarLampadaEncaps();
+        EncapGerenciarLampada lampada = new EncapGerenciarLampada();
         lampada.setVisible(true);
     }
 }

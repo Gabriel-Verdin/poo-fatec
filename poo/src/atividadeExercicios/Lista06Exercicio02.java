@@ -2,7 +2,7 @@ package atividadeExercicios;
 
 import javax.swing.JOptionPane;
 
-public class Exerc16Lista06 {
+public class Lista06Exercicio02 {
 
     public static void main(String[] args) {
         

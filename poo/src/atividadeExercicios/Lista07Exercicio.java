@@ -2,7 +2,7 @@ package atividadeExercicios;
 
 import java.util.List;
 
-public class ExercicioLista07 {
+public class Lista07Exercicio {
 
     public static void apresentarPalavras(String palavra) {
         for (int i = 0; i < palavra.length(); i++) {

@@ -1,6 +1,6 @@
 package atividadeExercicios;
 
-public enum EstadoLampadaEncaps {
+public enum EncapEstadoLampada {
 
     APAGADA("Apagada"),
     ACESA("Acesa"),
@@ -8,7 +8,7 @@ public enum EstadoLampadaEncaps {
 
     private final String descricao;
 
-    EstadoLampadaEncaps(String descricao) {
+    EncapEstadoLampada(String descricao) {
         this.descricao = descricao;
     }
 

@@ -1,6 +1,6 @@
 package atividadeExercicios;
 
-public class Exerc07Lista03 {
+public class Lista03Exercicio01 {
 
     public static void main(String[] args) {
 

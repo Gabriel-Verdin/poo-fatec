@@ -2,7 +2,7 @@ package atividadeExercicios;
 
 import javax.swing.JOptionPane;
 
-public class Exerc05Lista02 {
+public class Lista02Exercicio04 {
     public static void main(String[] args) {
         
         String num1Str = JOptionPane.showInputDialog("Digite o Primeiro número: ");
@@ -20,7 +20,7 @@ public class Exerc05Lista02 {
                 JOptionPane.showMessageDialog(null, "A média é: " + media);
             }
             else {
-                JOptionPane.showMessageDialog(null, "Digite apenas números positivos");
+                JOptionPane.showMessageDialog(null, "A média não pode ser calculada");
             }
 
         }

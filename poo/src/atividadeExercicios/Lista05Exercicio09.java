@@ -2,7 +2,7 @@ package atividadeExercicios;
 
 import javax.swing.JOptionPane;
 
-public class Exerc14Lista05 {
+public class Lista05Exercicio09 {
 
     public static void main(String[] args) throws InterruptedException {
         

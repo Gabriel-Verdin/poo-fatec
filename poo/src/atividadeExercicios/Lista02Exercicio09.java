@@ -2,7 +2,7 @@ package atividadeExercicios;
 
 import javax.swing.JOptionPane;
 
-public class Exerc06Lista02 {
+public class Lista02Exercicio09 {
     public static void main(String[] args) {
         
         String quantidadeAnos = JOptionPane.showInputDialog("Digite a quantidade de anos de Casamento: ");

@@ -8,13 +8,13 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-public class CalculadoraLista06 extends JFrame{
+public class Lista06Exercicio05 extends JFrame{
 
     JLabel labelNum01, labelNum02, labelResultado;
     JTextField textNum01, textNum02, textResultado;
     JButton btSomar, btSubtrair, btMultiplicar, btDividir, btPotencia, btRaiz, btSair;
 
-    public CalculadoraLista06() {
+    public Lista06Exercicio05() {
         
         setTitle("Calculadora");
         setSize(400, 360);
@@ -189,7 +189,7 @@ public class CalculadoraLista06 extends JFrame{
     // Aplicação
     public static void main(String[] args) {
         
-        CalculadoraLista06 frame = new CalculadoraLista06();
+        Lista06Exercicio05 frame = new Lista06Exercicio05();
         frame.setVisible(true);
 
     }
